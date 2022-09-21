@@ -38,11 +38,11 @@ Let's start with the mechanics of compiling grammar XML source into an ECR.
 
 ```sh
 > cd C:\MicroFocus\EductionSDK_12.12.0_WINDOWS_X86_65\samples\compile\resources\test
-> edktool compile -l ..\..\..\..\licensekey.dat -i source\test.xml -o test.ecr
+> edktool compile -l ..\..\..\..\licensekey.dat -i grammar\test.xml -o test.ecr
 
 Eduction EDKTool Utility v12.12.0
 Compiling:
-  source\test.xml
+  grammar\test.xml
 into:
   test.ecr
 using the license:
